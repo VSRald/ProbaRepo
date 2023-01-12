@@ -4,8 +4,9 @@
 
 ### Comandos empregados
 
-`` bash
+``` bash
 git init
+```
 
 >Sirve para inicializar un repo local
 
