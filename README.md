@@ -13,4 +13,6 @@ git init
 ### Pasos a seguir na práctica
 
 1. Inicializar repo local co comando 'git init'
-2. ...
+2. Crear os ficheiros.
+3. Engadir os ficheiros co comando'git add .'
+4. 
