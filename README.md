@@ -53,7 +53,7 @@ git clone "url"
 ```
 >Este comando serve para descargar un repositorio da rede.
 
-````bash
+```bash
 git push
 ```
 >Este comando envía todos os cambios que fixemos no repositorio local ao repositorio remoto.
