@@ -49,7 +49,7 @@ git log
 >Mostra todos os commit efectuados.
 
 ```bash
-git clone "url"
+git clone url
 ```
 >Este comando serve para descargar un repositorio da rede.
 
@@ -63,10 +63,28 @@ git pull
 ```
 >Este comando permitenos sincronizar o repositorio local co remoto baixando os cambios do remoto.
 
+```bash
+git reset [--soft|--mixed|--hard] HEAD~
+```
+>O comando reset serve para desfacer commits. No caso de poñer --soft solo de desfará o comit, pero a fase staged e o directorio de traballo manterán os cambios antes do commit. No caso de --mixed desfará o commit e os cambios dos ficheiros so estarán no directorio de traballo. No caso de --hard desfaranse todos os cambios no commit, no staged e no directorio de traballo. Nesta liña de comando está posto que o reset volva á versión anterior á que apunta o HEAD, pero no lugar de HEAD~ podemos poñer o código do commit ao que queremos volver.
+
+```bash
+git checkout arquivo
+git restore arquivo
+```
+>Estes comandos desfan os cambios que se fixeron nos arquivos que lle indiquemos.
+
+```bash
+git clean -f
+```
+>O comando clean co parametro -f borra os arquivos que non estaban no commit da vesión na que estamos trabalando nese momento.
+
 ### Pasos a seguir na práctica
 
-1. Inicializar repositorio local co comando 'git init'.
-2. Crear os ficheiros.
-3. Engadir os ficheiros co comando'git add .'.
-4. Facer un commit para gardar os cambios nunha nova versión do repositorio.
-5. 
+1. Crear unha carpeta e abrila no terminal.
+2. Inicializar repositorio local co comando 'git init'.
+3. Crear os ficheiros.
+4. Engadir os ficheiros co comando'git add .'.
+5. Facer un commit para gardar os cambios nunha nova versión do repositorio.
+6. Creamos un repositorio en GitHub.
+7. A continuación vinculamos o repositorio local co remoto co comando 'git remote add origin url'.
