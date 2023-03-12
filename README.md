@@ -1,6 +1,6 @@
 #Práctica Git
 
-## Práctica 1: Creación e conexión git
+## Prácticas Git
 
 ### Comandos empregados
 
@@ -79,7 +79,7 @@ git clean -f
 ```
 >O comando clean co parametro -f borra os arquivos que non estaban no commit da vesión na que estamos trabalando nese momento.
 
-### Pasos a seguir na práctica
+### Pasos a seguir na práctica 1.
 
 1. Crear unha carpeta e abrila no terminal.
 2. Inicializar repositorio local co comando 'git init'.
@@ -88,3 +88,9 @@ git clean -f
 5. Facer un commit para gardar os cambios nunha nova versión do repositorio.
 6. Creamos un repositorio en GitHub.
 7. A continuación vinculamos o repositorio local co remoto co comando 'git remote add origin url'.
+8. Para rematar facemos un 'git push origin main' para subir ao reposotorio remoto os commits do repositorio local
+
+### Pasos a seguir na práctica 2.
+
+1. Creamos unha nova carpeta no ordenador, e nesa carpeta co comando ' git clone url' facemos unha copia do repositorio remoto.
+2. Facemos os cambios que queremos facer nos arquivos, e cando queiramos subilos ao repositorio remoto facemos un ' git push origin main'.
